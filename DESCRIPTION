@@ -1,0 +1,23 @@
+Package: Bpir
+Title: My main portfolio of functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Benoit",
+           family = "Pirmez",
+           role = c("aut", "cre"),
+           email = "Pirmez_benoit@hotmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Just a place to stock my usual functions during my master.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    ggplot2 (>= 3.3.0)
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
